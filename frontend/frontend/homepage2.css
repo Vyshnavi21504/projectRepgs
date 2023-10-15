@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    align-items: center;
+    padding: 20px 50px;
+    color:#fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+.logo{
+    font-size: 25px;
+    font-family: montserrat;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 15px;
+    margin:0 50px;
+}
+.menu ul li ul.dropdown li{
+    display: block;
+}
+.menu ul li ul.dropdown{
+    width: 100%;
+    background: #7E174A;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.menu ul li a:hover{
+    background: #7E174A;
+}
+.socials a{
+    text-decoration: none;
+    background: #7E174A;
+    color: #fff;
+    padding: 10px 35px;
+}
+
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/bg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.ficon{
+    width: 35px;
+    height:35px;
+    color: #fff;
+}
+.banner-text{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.banner-text h1{
+    font-size: 60px;
+    margin: 0;
+}
+.banner-text{
+    margin: 15px 0 40px;
+}
+.banner-text button{
+    background: #7E174A;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    display: inline-block;
+}
